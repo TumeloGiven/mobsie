@@ -5,7 +5,7 @@ import { Clock, Users, ArrowRight } from 'lucide-react';
 export function Programs() {
   const programs = [
   {
-    age: 'Weekends inc',
+    note: 'Weekends inc',
     title: 'After Care Services',
     description:
     'At Mobsie we not only provide after care services for our students but also for members of the community. We provide homework help and lunch meal for children who are in primary school. We also offer a weekend service from 0:06-17:00.',
@@ -35,7 +35,7 @@ export function Programs() {
 
   },
   {
-    age: '05:45-17:00',
+    note: '05:45-17:00',
     title: 'Operating Hours',
     description:
     'We are open 7 days a week! School hours are 05:45-17:00 and from 17:00 till late we are open for after care.',
@@ -84,7 +84,7 @@ export function Programs() {
 
   },
   {
-    age: 'Safe Locations',
+    note: 'Safe Locations',
     title: 'Premises',
     description:
     'At Mobsie, safety comes first and we work hard to ensure the safety and well-being our children at all times. We have well equipped classrooms that are child friendly and have CCTVs all around to ensure that everyone is safe and secure.',
@@ -163,7 +163,7 @@ export function Programs() {
                   <div
                   className={`w-2 h-2 rounded-full ${program.textColor.replace('text-', 'bg-')}`}>
                 </div>
-                  {program.age}
+                  {program.note}
                 </div>
               </div>
 
